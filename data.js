@@ -72,7 +72,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'PixVerse AI',
                 url: 'https://app.pixverse.ai',
-                createdAt: Date.now()         
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Sora AI',
+                url: 'https://sora.chatgpt.com',
+                createdAt: Date.now()            
             }
         ];
     }
