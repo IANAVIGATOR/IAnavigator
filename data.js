@@ -51,10 +51,22 @@ class DataManager {
                 createdAt: Date.now()
             },
             {
-                 id: this.generateId(),
+                id: this.generateId(),
                 name: 'Pika AI',
                 url: 'https://pika.art',
-                createdAt: Date.now()  
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Leonardo AI',
+                url: 'https://leonardo.ai',
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Midjourney AI',
+                url: 'https://www.midjourney.com',
+                createdAt: Date.now()              
             }
         ];
     }
