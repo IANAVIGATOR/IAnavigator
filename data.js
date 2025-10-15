@@ -114,7 +114,21 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Heygen AI',
                 url: 'https://www.heygen.com',
-                createdAt: Date.now()      
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Ideogran AI',
+                url: 'https://ideogram.ai',
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Runway AI',
+                url: 'https://runwayml.com',
+                createdAt: Date.now()
+                
+                
             }
         ];
     }
