@@ -66,7 +66,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Midjourney AI',
                 url: 'https://www.midjourney.com',
-                createdAt: Date.now()              
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'PixVerse AI',
+                url: 'https://app.pixverse.ai',
+                createdAt: Date.now()         
             }
         ];
     }
