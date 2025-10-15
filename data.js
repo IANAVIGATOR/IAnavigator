@@ -49,6 +49,12 @@ class DataManager {
                 name: 'Perplexity AI',
                 url: 'https://www.perplexity.ai',
                 createdAt: Date.now()
+            },
+            {
+                 id: this.generateId(),
+                name: 'Pika AI',
+                url: 'https://pika.art',
+                createdAt: Date.now()  
             }
         ];
     }
