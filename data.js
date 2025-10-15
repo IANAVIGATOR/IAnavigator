@@ -109,8 +109,12 @@ class DataManager {
                 name: 'Kling AI',
                 url: 'https://klingai.com',
                 createdAt: Date.now()
-                
-                
+            },
+            {
+                id: this.generateId(),
+                name: 'Heygen AI',
+                url: 'https://www.heygen.com',
+                createdAt: Date.now()      
             }
         ];
     }
