@@ -132,7 +132,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Synthesia AI',
                 url: 'https://www.synthesia.io',
-                createdAt: Date.now()    
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'ElevenLabs AI',
+                url: 'https://elevenlabs.io',
+                createdAt: Date.now()
             }
         ];
     }
