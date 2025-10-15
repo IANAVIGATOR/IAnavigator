@@ -103,6 +103,13 @@ class DataManager {
                 name: 'Wan AI',
                 url: 'https://wan.video',
                 createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Kling AI',
+                url: 'https://klingai.com',
+                createdAt: Date.now()
+                
                 
             }
         ];
