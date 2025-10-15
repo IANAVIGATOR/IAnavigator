@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Random Navigator - Portal de IA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="radio-fixo.css">
+</head>
+<body>
+    <div class="background-animation">
+        <div class="grid-lines"></div>
+        <div class="particles" id="particles"></div>
+    </div>
+
+    <!-- Player de Rádio -->
+    <div class="radio-player" id="radioPlayer">
+        <div class="radio-player-header" id="radioPlayerHeader">
+            <svg class="radio-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                <path d="M9 8L16 12L9 16V8Z" fill="currentColor"/>
+            </svg>
+            <h3>Rádio AI</h3>
+            <svg class="drag-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="5" cy="6" r="1.5" fill="currentColor"/>
+                <circle cx="12" cy="6" r="1.5" fill="currentColor"/>
+                <circle cx="19" cy="6" r="1.5" fill="currentColor"/>
+                <circle cx="5" cy="12" r="1.5" fill="currentColor"/>
+                <circle cx="12" cy="12" r="1.5" fill="currentColor"/>
+                <circle cx="19" cy="12" r="1.5" fill="currentColor"/>
+                <circle cx="5" cy="18" r="1.5" fill="currentColor"/>
+                <circle cx="12" cy="18" r="1.5" fill="currentColor"/>
+                <circle cx="19" cy="18" r="1.5" fill="currentColor"/>
+            </svg>
+        </div>
+        <div class="radio-player-content">
+            <div class="radio-controls">
+                <button id="playBtn" class="control-btn" title="Play">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 5L19 12L8 19V5Z" fill="currentColor"/>
+                    </svg>
+                </button>
+                <button id="pauseBtn" class="control-btn" title="Pause" style="display: none;">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="6" y="4" width="4" height="16" fill="currentColor"/>
+                        <rect x="14" y="4" width="4" height="16" fill="currentColor"/>
+                    </svg>
+                </button>
+                <button id="stopBtn" class="control-btn" title="Stop">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="6" y="6" width="12" height="12" fill="currentColor"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="volume-control">
+                <svg class="volume-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11 5L6 9H2V15H6L11 19V5Z" fill="currentColor"/>
+                    <path d="M15.54 8.46C16.4774 9.39764 17.0039 10.6692 17.0039 11.995C17.0039 13.3208 16.4774 14.5924 15.54 15.53" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                <input 
+                    type="range" 
+                    id="volumeSlider" 
+                    class="volume-slider" 
+                    min="0" 
+                    max="100" 
+                    value="50"
+                />
+                <span id="volumeValue" class="volume-value">50%</span>
+            </div>
+            <div class="radio-status">
+                <span id="radioStatus">Aguardando...</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <svg class="logo-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="45" fill="none" stroke="url(#gradient1)" stroke-width="2"/>
+                    <circle cx="50" cy="50" r="35" fill="none" stroke="url(#gradient2)" stroke-width="1.5"/>
+                    <path d="M 50 20 L 50 80 M 20 50 L 80 50" stroke="url(#gradient3)" stroke-width="2"/>
+                    <circle cx="50" cy="50" r="8" fill="url(#gradient4)"/>
+                    <defs>
+                        <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#00f2ff;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#7b2ff7;stop-opacity:1" />
+                        </linearGradient>
+                        <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#ff00ff;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#00f2ff;stop-opacity:1" />
+                        </linearGradient>
+                        <linearGradient id="gradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#00f2ff;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#ff00ff;stop-opacity:1" />
+                        </linearGradient>
+                        <linearGradient id="gradient4" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#00f2ff;stop-opacity:0.8" />
+                            <stop offset="100%" style="stop-color:#7b2ff7;stop-opacity:0.8" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+                <h1 class="logo-text">AI Random Navigator</h1>
+            </div>
+            <p class="subtitle">Portal de Inteligência Artificial Aleatória</p>
+        </header>
+
+        <main class="main-content">
+            <section class="add-link-section">
+                <h2 class="section-title">Adicionar Link de IA</h2>
+                <div class="input-group">
+                    <input 
+                        type="text" 
+                        id="linkName" 
+                        class="input-field" 
+                        placeholder="Nome da IA (ex: ChatGPT)"
+                        autocomplete="off"
+                    />
+                    <input 
+                        type="url" 
+                        id="linkUrl" 
+                        class="input-field" 
+                        placeholder="URL (ex: https://chat.openai.com)"
+                        autocomplete="off"
+                    />
+                    <button id="addLinkBtn" class="btn btn-primary">
+                        <span class="btn-icon">+</span>
+                        Adicionar Link
+                    </button>
+                </div>
+            </section>
+
+            <section class="links-section">
+                <div class="section-header">
+                    <h2 class="section-title">Links Salvos</h2>
+                    <div class="link-count">
+                        <span id="linkCount">0</span> links
+                    </div>
+                </div>
+                <div id="linksList" class="links-list">
+                    <div class="empty-state">
+                        <svg class="empty-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="40" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="5,5"/>
+                            <text x="50" y="55" text-anchor="middle" fill="currentColor" font-size="40">?</text>
+                        </svg>
+                        <p>Nenhum link adicionado ainda</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="action-section">
+                <button id="randomBtn" class="btn btn-random">
+                    <span class="btn-glow"></span>
+                    <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18 4L20 6L18 8M18 16L20 18L18 20M6 9L3 12L6 15M14 4L16 6L14 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M20 6H13C10.7909 6 9 7.79086 9 10V14C9 16.2091 7.20914 18 5 18H3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                    Abrir Site Aleatório
+                </button>
+                <button id="clearAllBtn" class="btn btn-secondary">
+                    Limpar Todos
+                </button>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>© 2025 AI Random Navigator | Desenvolvido By Eudes Bism@rck</p>
+        </footer>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+    <script src="radio.js"></script>
+</body>
+</html>
+
