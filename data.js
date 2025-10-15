@@ -96,7 +96,14 @@ class DataManager {
                 id: this.generateId(),
                 name: 'DeepSeek AI',
                 url: 'https://chat.deepseek.com',
-                createdAt: Date.now()       
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Wan AI',
+                url: 'https://wan.video',
+                createdAt: Date.now()
+                
             }
         ];
     }
