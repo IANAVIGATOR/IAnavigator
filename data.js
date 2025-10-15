@@ -78,7 +78,25 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Sora AI',
                 url: 'https://sora.chatgpt.com',
-                createdAt: Date.now()            
+                createdAt: Date.now() 
+            },
+            {
+                id: this.generateId(),
+                name: 'Hailuo AI',
+                url: 'https://hailuoai.video',
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Manus AI',
+                url: 'https://manus.im',
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'DeepSeek AI',
+                url: 'https://chat.deepseek.com',
+                createdAt: Date.now()       
             }
         ];
     }
