@@ -127,8 +127,12 @@ class DataManager {
                 name: 'Runway AI',
                 url: 'https://runwayml.com',
                 createdAt: Date.now()
-                
-                
+            },
+            {
+                id: this.generateId(),
+                name: 'Synthesia AI',
+                url: 'https://www.synthesia.io',
+                createdAt: Date.now()    
             }
         ];
     }
