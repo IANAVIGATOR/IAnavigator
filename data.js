@@ -145,6 +145,12 @@ class DataManager {
                 name: 'Rola AI',
                 url: 'https://rola.a',
                 createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Flow AI',
+                url: 'https://labs.google/flow/about',
+                createdAt: Date.now()
             }
         ];
     }
