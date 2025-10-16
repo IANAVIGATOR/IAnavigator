@@ -163,6 +163,12 @@ class DataManager {
                 name: 'Mistral AI',
                 url: 'https://mistral.ai',
                 createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Deepmind AI',
+                url: 'https://deepmind.google',
+                createdAt: Date.now() 
             }
         ];
     }
