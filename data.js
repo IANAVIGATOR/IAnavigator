@@ -153,9 +153,15 @@ class DataManager {
                 createdAt: Date.now()
             },
             {
-                 id: this.generateId(),
+                id: this.generateId(),
                 name: 'Veo3 AI',
                 url: 'https://deepmind.google/models/veo/',
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Mistral AI',
+                url: 'https://mistral.ai',
                 createdAt: Date.now()
             }
         ];
