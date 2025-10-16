@@ -151,6 +151,12 @@ class DataManager {
                 name: 'Flow AI',
                 url: 'https://labs.google/flow/about',
                 createdAt: Date.now()
+            },
+            {
+                 id: this.generateId(),
+                name: 'Veo3 AI',
+                url: 'https://deepmind.google/models/veo/',
+                createdAt: Date.now()
             }
         ];
     }
