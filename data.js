@@ -139,6 +139,12 @@ class DataManager {
                 name: 'ElevenLabs AI',
                 url: 'https://elevenlabs.io',
                 createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Rola AI',
+                url: 'https://rola.a',
+                createdAt: Date.now()
             }
         ];
     }
