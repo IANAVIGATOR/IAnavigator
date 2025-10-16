@@ -169,6 +169,12 @@ class DataManager {
                 name: 'Deepmind AI',
                 url: 'https://deepmind.google',
                 createdAt: Date.now() 
+            },
+            {
+                id: this.generateId(),
+                name: 'Qwen AI',
+                url: 'https://qwen.ai',
+                createdAt: Date.now()
             }
         ];
     }
