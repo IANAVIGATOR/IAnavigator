@@ -175,6 +175,12 @@ class DataManager {
                 name: 'Qwen AI',
                 url: 'https://qwen.ai',
                 createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Suno AI',
+                url: 'https://suno.com',
+                createdAt: Date.now()
             }
         ];
     }
