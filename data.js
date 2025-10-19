@@ -184,7 +184,7 @@ class DataManager {
             },
             {
                  id: this.generateId(),
-                name: 'N8N AI',
+                name: 'N8n AI',
                 url: 'https://n8n.io/',
                 createdAt: Date.now()
             }
