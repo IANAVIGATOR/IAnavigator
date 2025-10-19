@@ -181,6 +181,12 @@ class DataManager {
                 name: 'Suno AI',
                 url: 'https://suno.com',
                 createdAt: Date.now()
+            },
+            {
+                 id: this.generateId(),
+                name: 'N8N AI',
+                url: 'https://n8n.io/',
+                createdAt: Date.now()
             }
         ];
     }
