@@ -192,6 +192,12 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Deevid.IA',
                 url: 'https://deevid.ai/',
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'MagicLight.IA',
+                url: 'https://magiclight.ai',
                 createdAt: Date.now()       
             }
         ];
