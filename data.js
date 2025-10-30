@@ -183,10 +183,16 @@ class DataManager {
                 createdAt: Date.now()
             },
             {
-                 id: this.generateId(),
+                id: this.generateId(),
                 name: 'N8n AI',
                 url: 'https://n8n.io/',
                 createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Deevid.IA',
+                url: 'https://deevid.ai/',
+                createdAt: Date.now()       
             }
         ];
     }
