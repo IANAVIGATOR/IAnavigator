@@ -198,7 +198,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'MagicLight.IA',
                 url: 'https://magiclight.ai',
-                createdAt: Date.now()       
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Whisky.IA',
+                url: 'https://labs.google/fx/pt/tools/whisk',
+                createdAt: Date.now()
             }
         ];
     }
