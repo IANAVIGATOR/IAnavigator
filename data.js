@@ -205,6 +205,12 @@ class DataManager {
                 name: 'Whisky.IA',
                 url: 'https://labs.google/fx/pt/tools/whisk',
                 createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Skywork.IA',
+                url: 'https://skywork.ai/',
+                createdAt: Date.now()   
             }
         ];
     }
