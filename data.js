@@ -276,7 +276,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Pippit.IA',
                 url: 'https://www.pippit.ai/',
-                createdAt: Date.now()                
+                createdAt: Date.now() 
+            },
+            {
+                id: this.generateId(),
+                name: 'Airstudio.IA',
+                url: 'https://aistudio.google.com/',
+                createdAt: Date.now()               
             }
         ];
     }
