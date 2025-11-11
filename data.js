@@ -22,169 +22,169 @@ class DataManager {
         return [
             {
                 id: this.generateId(),
-                name: 'ChatGPT',
+                name: 'ChatGPT.IA',
                 url: 'https://chat.openai.com',
                 createdAt: Date.now()
             },
             {
                 id: this.generateId(),
-                name: 'Google Gemini',
+                name: 'Google Gemini.IA',
                 url: 'https://gemini.google.com',
                 createdAt: Date.now()
             },
             {
                 id: this.generateId(),
-                name: 'Claude AI',
+                name: 'Claude.AI',
                 url: 'https://claude.ai',
                 createdAt: Date.now()
             },
             {
                 id: this.generateId(),
-                name: 'Microsoft Copilot',
+                name: 'Microsoft Copilot.IA',
                 url: 'https://copilot.microsoft.com',
                 createdAt: Date.now()
             },
             {
                 id: this.generateId(),
-                name: 'Perplexity AI',
+                name: 'Perplexity.AI',
                 url: 'https://www.perplexity.ai',
                 createdAt: Date.now()
             },
             {
                 id: this.generateId(),
-                name: 'Pika AI',
+                name: 'Pika.AI',
                 url: 'https://pika.art',
                 createdAt: Date.now()
             },
             {
                 id: this.generateId(),
-                name: 'Leonardo AI',
+                name: 'Leonardo.AI',
                 url: 'https://leonardo.ai',
                 createdAt: Date.now()
             },
             {
                 id: this.generateId(),
-                name: 'Midjourney AI',
+                name: 'Midjourney.AI',
                 url: 'https://www.midjourney.com',
                 createdAt: Date.now()
             },
             {
                 id: this.generateId(),
-                name: 'PixVerse AI',
+                name: 'PixVerse.AI',
                 url: 'https://app.pixverse.ai',
                 createdAt: Date.now()
             },
             {
                 id: this.generateId(),
-                name: 'Sora AI',
+                name: 'Sora.AI',
                 url: 'https://sora.chatgpt.com',
                 createdAt: Date.now() 
             },
             {
                 id: this.generateId(),
-                name: 'Hailuo AI',
+                name: 'Hailuo.AI',
                 url: 'https://hailuoai.video',
                 createdAt: Date.now()
             },
             {
                 id: this.generateId(),
-                name: 'Manus AI',
+                name: 'Manus.AI',
                 url: 'https://manus.im',
                 createdAt: Date.now()
             },
             {
                 id: this.generateId(),
-                name: 'DeepSeek AI',
+                name: 'DeepSeek.AI',
                 url: 'https://chat.deepseek.com',
                 createdAt: Date.now()
             },
             {
                 id: this.generateId(),
-                name: 'Wan AI',
+                name: 'Wan.AI',
                 url: 'https://wan.video',
                 createdAt: Date.now()
             },
             {
                 id: this.generateId(),
-                name: 'Kling AI',
+                name: 'Kling.AI',
                 url: 'https://klingai.com',
                 createdAt: Date.now()
             },
             {
                 id: this.generateId(),
-                name: 'Heygen AI',
+                name: 'Heygen.AI',
                 url: 'https://www.heygen.com',
                 createdAt: Date.now()
             },
             {
                 id: this.generateId(),
-                name: 'Ideogran AI',
+                name: 'Ideogran.AI',
                 url: 'https://ideogram.ai',
                 createdAt: Date.now()
             },
             {
                 id: this.generateId(),
-                name: 'Runway AI',
+                name: 'Runway.AI',
                 url: 'https://runwayml.com',
                 createdAt: Date.now()
             },
             {
                 id: this.generateId(),
-                name: 'Synthesia AI',
+                name: 'Synthesia.AI',
                 url: 'https://www.synthesia.io',
                 createdAt: Date.now()
             },
             {
                 id: this.generateId(),
-                name: 'ElevenLabs AI',
+                name: 'ElevenLabs.AI',
                 url: 'https://elevenlabs.io',
                 createdAt: Date.now()
             },
             {
                 id: this.generateId(),
-                name: 'Rola AI',
+                name: 'Rola.AI',
                 url: 'https://rola.a',
                 createdAt: Date.now()
             },
             {
                 id: this.generateId(),
-                name: 'Flow AI',
+                name: 'Flow.AI',
                 url: 'https://labs.google/flow/about',
                 createdAt: Date.now()
             },
             {
                 id: this.generateId(),
-                name: 'Veo3 AI',
+                name: 'Veo3.AI',
                 url: 'https://deepmind.google/models/veo/',
                 createdAt: Date.now()
             },
             {
                 id: this.generateId(),
-                name: 'Mistral AI',
+                name: 'Mistral.AI',
                 url: 'https://mistral.ai',
                 createdAt: Date.now()
             },
             {
                 id: this.generateId(),
-                name: 'Deepmind AI',
+                name: 'Deepmind.AI',
                 url: 'https://deepmind.google',
                 createdAt: Date.now() 
             },
             {
                 id: this.generateId(),
-                name: 'Qwen AI',
+                name: 'Qwen.AI',
                 url: 'https://qwen.ai',
                 createdAt: Date.now()
             },
             {
                 id: this.generateId(),
-                name: 'Suno AI',
+                name: 'Suno.AI',
                 url: 'https://suno.com',
                 createdAt: Date.now()
             },
             {
                 id: this.generateId(),
-                name: 'N8n AI',
+                name: 'N8n.AI',
                 url: 'https://n8n.io/',
                 createdAt: Date.now()
             },
@@ -210,7 +210,19 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Skywork.IA',
                 url: 'https://skywork.ai/',
-                createdAt: Date.now()   
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Seedream.IA',
+                url: 'https://seedream.pro/',
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Spellai.IA',
+                url: 'https://www.spellai.art/',
+                createdAt: Date.now()                          
             }
         ];
     }
