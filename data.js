@@ -258,7 +258,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Pollo.IA',
                 url: 'https://pollo.ai/',
-                createdAt: Date.now()              
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Higgsfield.IA',
+                url: 'https://higgsfield.ai/',
+                createdAt: Date.now()                
             }
         ];
     }
