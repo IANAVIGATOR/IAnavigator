@@ -264,6 +264,18 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Higgsfield.IA',
                 url: 'https://higgsfield.ai/',
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Seaart.IA',
+                url: 'https://www.seaart.ai/',
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Pippit.IA',
+                url: 'https://www.pippit.ai/',
                 createdAt: Date.now()                
             }
         ];
