@@ -240,7 +240,19 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Opal.Google.IA',
                 url: 'https://opal.google/landing/',
-                createdAt: Date.now()               
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Longcat.IA',
+                url: 'https://longcat.chat/',
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Skyreels.IA',
+                url: 'https://www.skyreels.ai/',
+                createdAt: Date.now()              
             }
         ];
     }
