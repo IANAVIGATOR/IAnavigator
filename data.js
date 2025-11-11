@@ -252,6 +252,12 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Skyreels.IA',
                 url: 'https://www.skyreels.ai/',
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Pollo.IA',
+                url: 'https://pollo.ai/',
                 createdAt: Date.now()              
             }
         ];
