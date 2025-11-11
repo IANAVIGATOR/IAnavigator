@@ -282,7 +282,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Airstudio.IA',
                 url: 'https://aistudio.google.com/',
-                createdAt: Date.now()               
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Meta.IA',
+                url: 'https://www.meta.ai/',
+                createdAt: Date.now()              
             }
         ];
     }
