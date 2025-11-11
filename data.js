@@ -288,7 +288,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Meta.IA',
                 url: 'https://www.meta.ai/',
-                createdAt: Date.now()              
+                createdAt: Date.now() 
+            },
+            {
+                id: this.generateId(),
+                name: 'MgxDev.IA',
+                url: 'https://mgx.dev/',
+                createdAt: Date.now()               
             }
         ];
     }
