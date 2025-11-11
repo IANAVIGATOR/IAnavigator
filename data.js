@@ -222,7 +222,25 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Spellai.IA',
                 url: 'https://www.spellai.art/',
-                createdAt: Date.now()                          
+                createdAt: Date.now() 
+            },
+            {
+                id: this.generateId(),
+                name: 'Genspark.IA',
+                url: 'https://www.genspark.ai/',
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Lovart.IA',
+                url: 'https://www.lovart.ai/',
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Opal.Google.IA',
+                url: 'https://opal.google/landing/',
+                createdAt: Date.now()               
             }
         ];
     }
