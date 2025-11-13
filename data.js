@@ -294,7 +294,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'MgxDev.IA',
                 url: 'https://mgx.dev/',
-                createdAt: Date.now()               
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Emergente.IA',
+                url: 'https://app.emergent.sh/',
+                createdAt: Date.now()             
             }
         ];
     }
