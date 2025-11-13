@@ -142,8 +142,8 @@ class DataManager {
             },
             {
                 id: this.generateId(),
-                name: 'Rola.AI',
-                url: 'https://rola.a',
+                name: 'Rola.IA',
+                url: 'https://rola.ai/',
                 createdAt: Date.now()
             },
             {
