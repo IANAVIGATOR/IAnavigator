@@ -306,7 +306,7 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Grok.IA',
                 url: 'https://grok.com/',
-                createdAt: Date.now()           
+                createdAt: Date.now()            
             }
         ];
     }
