@@ -6,7 +6,7 @@ class DataManager {
         this.links = this.loadLinks();
     }
 
-    // Carregar links do localStorage
+    // Carregar links do localStorage 
     loadLinks() {
         try {
             const stored = localStorage.getItem(this.storageKey);
