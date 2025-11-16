@@ -306,7 +306,14 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Grok.IA',
                 url: 'https://grok.com/',
-                createdAt: Date.now()            
+                createdAt: Date.now() 
+
+            },
+            {
+                id: this.generateId(),
+                name: 'Faceswap.IA',
+                url: 'https://aifaceswap.io/',
+                createdAt: Date.now()                  
             }
         ];
     }
