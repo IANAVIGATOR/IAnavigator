@@ -300,7 +300,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Emergente.IA',
                 url: 'https://app.emergent.sh/',
-                createdAt: Date.now()             
+                createdAt: Date.now() 
+            },
+            {
+                id: this.generateId(),
+                name: 'Grok.IA',
+                url: 'https://grok.com/',
+                createdAt: Date.now()           
             }
         ];
     }
