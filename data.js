@@ -330,7 +330,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Chatllm.IA',
                 url: 'https://chatllm.abacus.ai/',
-                createdAt: Date.now()                
+                createdAt: Date.now() 
+            },
+            {
+                id: this.generateId(),
+                name: 'Llama.IA',
+                url: 'https://www.llama.com/',
+                createdAt: Date.now()              
             }
         ];
     }
