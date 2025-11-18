@@ -324,6 +324,12 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Stitch.IA',
                 url: 'https://stitch.withgoogle.com/',
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Chatllm.IA',
+                url: 'https://chatllm.abacus.ai/',
                 createdAt: Date.now()                
             }
         ];
