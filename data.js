@@ -307,20 +307,24 @@ class DataManager {
                 name: 'Grok.IA',
                 url: 'https://grok.com/',
                 createdAt: Date.now() 
-
             },
             {
                 id: this.generateId(),
                 name: 'Faceswap.IA',
                 url: 'https://aifaceswap.io/',
                 createdAt: Date.now() 
-
             },
             {
                 id: this.generateId(),
                 name: 'Imagine.art.IA',
                 url: 'https://www.imagine.art/',
-                createdAt: Date.now()        
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Stitch.IA',
+                url: 'https://stitch.withgoogle.com/',
+                createdAt: Date.now()                
             }
         ];
     }
