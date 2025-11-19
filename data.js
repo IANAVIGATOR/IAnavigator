@@ -336,7 +336,25 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Llama.IA',
                 url: 'https://www.llama.com/',
-                createdAt: Date.now()              
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Freepik.IA',
+                url: 'https://www.freepik.com/',
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Opusclip.IA',
+                url: 'https://www.opus.pro/',
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Wananimate.IA',
+                url: 'https://wan-animate.io/pt',
+                createdAt: Date.now()               
             }
         ];
     }
