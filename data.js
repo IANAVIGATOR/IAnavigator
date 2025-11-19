@@ -354,6 +354,12 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Wan-animate.IA',
                 url: 'https://wan-animate.io/pt',
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Vidu.IA',
+                url: 'https://www.vidu.com/pt',
                 createdAt: Date.now()               
             }
         ];
