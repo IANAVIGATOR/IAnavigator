@@ -352,7 +352,7 @@ class DataManager {
             },
             {
                 id: this.generateId(),
-                name: 'Wananimate.IA',
+                name: 'Wan-animate.IA',
                 url: 'https://wan-animate.io/pt',
                 createdAt: Date.now()               
             }
