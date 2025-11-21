@@ -360,7 +360,25 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Vidu.IA',
                 url: 'https://www.vidu.com/pt',
-                createdAt: Date.now()               
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Kimik2.IA',
+                url: 'https://kimi-k2.net/pt',
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Videgenie.IA',
+                url: 'https://vidgenie.ai/',
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Flowith.IA',
+                url: 'https://flowith.io/blank',
+                createdAt: Date.now()             
             }
         ];
     }
