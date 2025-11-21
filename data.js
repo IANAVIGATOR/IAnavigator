@@ -378,7 +378,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Flowith.IA',
                 url: 'https://flowith.io/blank',
-                createdAt: Date.now()             
+                createdAt: Date.now() 
+            },
+            {
+                id: this.generateId(),
+                name: 'Rocket.IA',
+                url: 'https://www.rocket.new/',
+                createdAt: Date.now()                 
             }
         ];
     }
