@@ -402,7 +402,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Unicorn.Studio.IA',
                 url: 'https://www.unicorn.studio/',
-                createdAt: Date.now()              
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Apob.IA',
+                url: 'https://apob.ai/',
+                createdAt: Date.now()      
             }
         ];
     }
