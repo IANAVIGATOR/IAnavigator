@@ -396,7 +396,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Z-image.IA',
                 url: 'https://z-image.ai/',
-                createdAt: Date.now()                
+                createdAt: Date.now() 
+            },
+            {
+                id: this.generateId(),
+                name: 'Unicorn.Studio.IA',
+                url: 'https://www.unicorn.studio/',
+                createdAt: Date.now()              
             }
         ];
     }
