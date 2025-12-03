@@ -390,7 +390,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Mindvideo.IA',
                 url: 'https://www.mindvideo.ai/',
-                createdAt: Date.now()               
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Z-image.IA',
+                url: 'https://z-image.ai/',
+                createdAt: Date.now()                
             }
         ];
     }
