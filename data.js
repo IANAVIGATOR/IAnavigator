@@ -414,7 +414,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'RoboNeo.IA',
                 url: 'https://www.roboneoai.art/',
-                createdAt: Date.now()                 
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Animon.IA',
+                url: 'https://www.animon.ai/',
+                createdAt: Date.now()                
             }
         ];
     }
