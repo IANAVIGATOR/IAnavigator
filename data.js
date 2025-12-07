@@ -420,7 +420,19 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Animon.IA',
                 url: 'https://www.animon.ai/',
-                createdAt: Date.now()                
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Napikin.IA',
+                url: 'https://www.napkin.ai/',
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Reve.IA',
+                url: 'https://app.reve.com/',
+                createdAt: Date.now()                                
             }
         ];
     }
