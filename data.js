@@ -462,7 +462,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Holocine.IA',
                 url: 'https://holo-cine.github.io/',
-                createdAt: Date.now()           
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Huggingface.IA',
+                url: 'https://huggingface.co/',
+                createdAt: Date.now()       
             }
         ];
     }
