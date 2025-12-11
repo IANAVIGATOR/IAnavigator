@@ -456,7 +456,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Waver.IA',
                 url: 'https://www.waverai.app/',
-                createdAt: Date.now()        
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Holocine.IA',
+                url: 'https://holo-cine.github.io/',
+                createdAt: Date.now()           
             }
         ];
     }
