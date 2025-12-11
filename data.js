@@ -432,7 +432,25 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Reve.IA',
                 url: 'https://app.reve.com/',
-                createdAt: Date.now()                                
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Flux.IA',
+                url: 'https://flux-ai.io/',
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Nemovideo.IA',
+                url: 'https://www.nemovideo.com/',
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Diffusion.IA',
+                url: 'https://www.diffusion.studio/',
+                createdAt: Date.now()               
             }
         ];
     }
