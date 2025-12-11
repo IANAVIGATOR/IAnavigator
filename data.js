@@ -450,7 +450,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Diffusion.IA',
                 url: 'https://www.diffusion.studio/',
-                createdAt: Date.now()               
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Waver.IA',
+                url: 'https://www.waverai.app/',
+                createdAt: Date.now()        
             }
         ];
     }
