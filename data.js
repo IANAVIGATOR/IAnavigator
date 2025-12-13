@@ -468,7 +468,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Huggingface.IA',
                 url: 'https://huggingface.co/',
-                createdAt: Date.now()                      
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Mixboard.IA',
+                url: 'https://labs.google.com/mixboard/welcome',
+                createdAt: Date.now()            
             }
         ];
     }
