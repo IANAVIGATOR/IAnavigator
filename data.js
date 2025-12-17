@@ -474,7 +474,25 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Mixboard.IA',
                 url: 'https://labs.google.com/mixboard/welcome',
-                createdAt: Date.now()            
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Pixabay.IA',
+                url: 'https://pixabay.com/',
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Mixkit.IA',
+                url: 'https://mixkit.co/',
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Pexels.IA',
+                url: 'https://www.pexels.com/pt-br/',
+                createdAt: Date.now()                       
             }
         ];
     }
