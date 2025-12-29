@@ -492,7 +492,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Pexels.IA',
                 url: 'https://www.pexels.com/pt-br/',
-                createdAt: Date.now()                       
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Long vie 2.IA',
+                url: 'https://vchitect.github.io/LongVie2-project/',
+                createdAt: Date.now()       
             }
         ];
     }
