@@ -498,7 +498,25 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Long vie 2.IA',
                 url: 'https://vchitect.github.io/LongVie2-project/',
-                createdAt: Date.now()       
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'NemoVideo.IA',
+                url: 'https://www.nemovideo.com/',
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Ovi.IA',
+                url: 'https://ovi.video/',
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Fal.IA',
+                url: 'https://fal.ai/',
+                createdAt: Date.now()                               
             }
         ];
     }
