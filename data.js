@@ -516,7 +516,15 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Lumenia.IA',
                 url: 'https://lumenia.chat/',
-                createdAt: Date.now()              
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Kimi.IA',
+                url: 'https://www.kimi.com/en',
+                createdAt: Date.now()
+                
+                
             }
         ];
     }
