@@ -438,13 +438,7 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Flux.IA',
                 url: 'https://flux-ai.io/',
-                createdAt: Date.now()
-            },
-            {
-                id: this.generateId(),
-                name: 'Nemovideo.IA',
-                url: 'https://www.nemovideo.com/',
-                createdAt: Date.now()
+                createdAt: Date.now()           
             },
             {
                 id: this.generateId(),
