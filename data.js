@@ -523,8 +523,24 @@ class DataManager {
                 name: 'Kimi.IA',
                 url: 'https://www.kimi.com/en',
                 createdAt: Date.now()
-                
-                
+            },
+            {
+                id: this.generateId(),
+                name: 'DeviantArt.IA',
+                url: 'https://www.deviantart.com/',
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Ltx2.IA',
+                url: 'https://ltx.io/model/ltx-2',
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Antigravity.IA',
+                url: 'https://antigravity.google/',
+                createdAt: Date.now()                                         
             }
         ];
     }
