@@ -546,7 +546,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Flowith.IA',
                 url: 'https://flowith.io/blank',
-                createdAt: Date.now()             
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'OmniHuman.IA',
+                url: 'https://www.omnihuman1.org/',
+                createdAt: Date.now()           
             }
         ];
     }
