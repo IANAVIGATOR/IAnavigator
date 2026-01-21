@@ -540,13 +540,7 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Antigravity.IA',
                 url: 'https://antigravity.google/',
-                createdAt: Date.now()
-            },
-            {
-                id: this.generateId(),
-                name: 'Flowith.IA',
-                url: 'https://flowith.io/blank',
-                createdAt: Date.now()
+                createdAt: Date.now()           
             },
             {
                 id: this.generateId(),
