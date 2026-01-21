@@ -510,7 +510,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Fal.IA',
                 url: 'https://fal.ai/',
-                createdAt: Date.now()                               
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Lumenia.IA',
+                url: 'https://lumenia.chat/',
+                createdAt: Date.now()              
             }
         ];
     }
