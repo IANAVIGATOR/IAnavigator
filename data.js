@@ -550,7 +550,7 @@ class DataManager {
             },
             {
                 id: this.generateId(),
-                name: 'Ovi.IA',
+                name: 'OviHugginface.IA',
                 url: 'https://huggingface.co/spaces/akhaliq/Ovi',
                 createdAt: Date.now()      
             }
