@@ -552,7 +552,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'OviHugginface.IA',
                 url: 'https://huggingface.co/spaces/akhaliq/Ovi',
-                createdAt: Date.now()      
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Fly.Adobe.IA',
+                url: 'https://firefly.adobe.com',
+                createdAt: Date.now()              
             }
         ];
     }
