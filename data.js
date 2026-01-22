@@ -546,7 +546,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'OmniHuman.IA',
                 url: 'https://www.omnihuman1.org/',
-                createdAt: Date.now()           
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Ovi.IA',
+                url: 'https://huggingface.co/spaces/akhaliq/Ovi',
+                createdAt: Date.now()      
             }
         ];
     }
