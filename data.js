@@ -612,7 +612,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Pareto.IA',
                 url: 'https://pareto.io/pt-br/gerador-video-ia/',
-                createdAt: Date.now()                              
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Kapwing.IA',
+                url: 'https://www.kapwing.com/pt-br/ai-video-generator',
+                createdAt: Date.now()                
             }
         ];
     }
