@@ -588,7 +588,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Renderforst.IA',
                 url: 'https://www.renderforest.com',
-                createdAt: Date.now()            
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Capcut.IA',
+                url: 'https://www.capcut.com/pt-br/tools/ai-video-generator',
+                createdAt: Date.now()                  
             }
         ];
     }
