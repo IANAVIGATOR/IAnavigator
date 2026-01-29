@@ -600,7 +600,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Monica.IA',
                 url: 'https://monica.im/pt_PT/image-tools/ai-video-generator',
-                createdAt: Date.now()               
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Animaker.IA',
+                url: 'https://www.animaker.co/',
+                createdAt: Date.now()              
             }
         ];
     }
