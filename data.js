@@ -606,7 +606,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Animaker.IA',
                 url: 'https://www.animaker.co/',
-                createdAt: Date.now()              
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Pareto.IA',
+                url: 'https://pareto.io/pt-br/gerador-video-ia/',
+                createdAt: Date.now()                              
             }
         ];
     }
