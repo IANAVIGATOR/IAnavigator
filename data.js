@@ -558,7 +558,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Fly.Adobe.IA',
                 url: 'https://firefly.adobe.com',
-                createdAt: Date.now()              
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Kimi.IA',
+                url: 'https://www.kimi.com/',
+                createdAt: Date.now()               
             }
         ];
     }
