@@ -564,7 +564,19 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Kimi.IA',
                 url: 'https://www.kimi.com/',
-                createdAt: Date.now()               
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Pictory.IA',
+                url: 'https://pictory.ai/',
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Hera.IA',
+                url: 'https://hera.video/',
+                createdAt: Date.now()           
             }
         ];
     }
