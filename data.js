@@ -576,7 +576,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Hera.IA',
                 url: 'https://hera.video/',
-                createdAt: Date.now()           
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Humbot.IA',
+                url: 'https://humbot.ai/pt',
+                createdAt: Date.now()              
             }
         ];
     }
