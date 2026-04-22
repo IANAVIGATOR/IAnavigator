@@ -630,7 +630,25 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Zayra.IA',
                 url: 'https://zayraai.com/',
-                createdAt: Date.now()                                                        
+                createdAt: Date.now() 
+            },
+            {
+                id: this.generateId(),
+                name: 'Humata.IA',
+                url: 'https://www.humata.ai/',
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Grammarly.IA',
+                url: 'https://www.grammarly.com/',
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Maritaca.IA',
+                url: 'https://www.maritaca.ai/',
+                createdAt: Date.now()                               
             }
         ];
     }
