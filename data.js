@@ -618,7 +618,19 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Kapwing.IA',
                 url: 'https://www.kapwing.com/pt-br/ai-video-generator',
-                createdAt: Date.now()                
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Geminigen.IA',
+                url: 'https://geminigen.ai/',
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Zayra.IA',
+                url: 'https://zayraai.com/',
+                createdAt: Date.now()                                                        
             }
         ];
     }
