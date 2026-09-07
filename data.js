@@ -648,7 +648,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Grammarly.IA',
                 url: 'https://www.magnific.com/br',
-                createdAt: Date.now()         
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Grammarly.IA',
+                url: 'https://www.grammarly.com/',
+                createdAt: Date.now()       
             }
         ];
     }
