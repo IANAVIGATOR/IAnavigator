@@ -623,7 +623,7 @@ class DataManager {
             {
                 id: this.generateId(),
                 name: 'Geminigen.IA',
-                url: 'https://geminigen.ai/',
+                url: 'https://geminigen.link/pt',
                 createdAt: Date.now()
             },
             {
