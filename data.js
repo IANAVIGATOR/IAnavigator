@@ -684,7 +684,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Firefly.IA',
                 url: 'https://firefly.adobe.com/',
-                createdAt: Date.now()                       
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Makeugc.IA',
+                url: 'https://makeugc.ai/',
+                createdAt: Date.now()            
             }
         ];
     }
