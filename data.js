@@ -672,7 +672,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'LTX2.5.IA',
                 url: 'https://ltx.io/model/ltx-2-5',
-                createdAt: Date.now()           
+                createdAt: Date.now() 
+            },
+            {
+                id: this.generateId(),
+                name: 'Makeugc.IA',
+                url: 'https://makeugc.ai/',
+                createdAt: Date.now()            
             }
         ];
     }
