@@ -660,7 +660,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Grammarly.IA',
                 url: 'https://www.happyhorse.com/',
-                createdAt: Date.now()                     
+                createdAt: Date.now() 
+            },
+            {
+                id: this.generateId(),
+                name: 'LTX 2.5.IA',
+                url: 'https://ltx.io/model/ltx-2-5',
+                createdAt: Date.now()          
             }
         ];
     }
