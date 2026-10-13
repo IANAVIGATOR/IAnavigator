@@ -664,9 +664,15 @@ class DataManager {
             },
             {
                 id: this.generateId(),
-                name: 'LTX 2.5.IA',
+                name: 'HappySeeds.IA',
+                url: 'https://happyseeds.ai/',
+                createdAt: Date.now() 
+            },
+            {
+                id: this.generateId(),
+                name: 'LTX2.5.IA',
                 url: 'https://ltx.io/model/ltx-2-5',
-                createdAt: Date.now()          
+                createdAt: Date.now()           
             }
         ];
     }
