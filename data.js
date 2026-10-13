@@ -690,7 +690,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Makeugc.IA',
                 url: 'https://makeugc.ai/',
-                createdAt: Date.now()            
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Flim.IA',
+                url: 'https://flim.ai/',
+                createdAt: Date.now()                             
             }
         ];
     }
