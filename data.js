@@ -702,7 +702,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Miora.IA',
                 url: 'https://miora.design/',
-                createdAt: Date.now()             
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'AlibabaCloud.IA',
+                url: 'https://www.alibabacloud.com/',
+                createdAt: Date.now()                            
             }
         ];
     }
