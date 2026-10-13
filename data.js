@@ -708,7 +708,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'AlibabaCloud.IA',
                 url: 'https://www.alibabacloud.com/',
-                createdAt: Date.now()                            
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Buzzy.IA',
+                url: 'https://www.buzzy.now/',
+                createdAt: Date.now()                               
             }
         ];
     }
