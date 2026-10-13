@@ -720,7 +720,13 @@ class DataManager {
                 id: this.generateId(),
                 name: 'Animaker.IA',
                 url: 'https://www.animaker.co/',
-                createdAt: Date.now()                           
+                createdAt: Date.now()
+            },
+            {
+                id: this.generateId(),
+                name: 'Imagine.art.IA',
+                url: 'https://www.imagine.art/',
+                createdAt: Date.now()            
             }
         ];
     }
